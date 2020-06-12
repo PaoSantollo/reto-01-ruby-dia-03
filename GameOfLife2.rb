@@ -1,5 +1,5 @@
 class Juego
-	def imprimirTablero(tablero)
+  def imprimirTablero(tablero)
     for i in 0..9
       for j in 0..9
         print tablero[i][j]
